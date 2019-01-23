@@ -159,11 +159,6 @@ h1 {
     color: #eb0c0c;
   }
 }
-@media (max-width: 400px) {
-  h1 {
-    color: palevioletred;
-  }
-}
 h2 {
   font-size: 1.6rem;
 }
@@ -198,6 +193,12 @@ nav a {
   background-color: lightgrey;
   border-color: dotted aqua;
 }
+@media (max-width: 800px) {
+  .box {
+    background-color: black;
+    color: aqua;
+  }
+}
 .box .box1 {
   display: flex;
 }
@@ -205,5 +206,5 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
+  background-color: aqua;
 }
